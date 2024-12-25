@@ -1,6 +1,8 @@
+import ProductShow from "@/components/ProductShow";
 import { PinContainer } from "@/components/ui/3d-pin";
 
 export default function Home() {
+
   return (
     <div>
       <div className="h-[40rem] w-full flex items-center justify-center ">
@@ -21,7 +23,7 @@ export default function Home() {
           </div>
         </PinContainer>
       </div>
-
+      <ProductShow />
     </div>
   );
 }
